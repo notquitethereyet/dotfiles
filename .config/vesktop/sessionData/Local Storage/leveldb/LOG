@@ -1,0 +1,17 @@
+2024/10/10-23:20:58.694 3c14 Creating DB /home/quiet/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
+2024/10/10-23:20:58.707 3c14 Reusing MANIFEST /home/quiet/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/10/10-23:23:11.733 3c12 Level-0 table #5: started
+2024/10/10-23:23:11.744 3c12 Level-0 table #5: 87187 bytes OK
+2024/10/10-23:23:11.745 3c12 Delete type=0 #3
+2024/10/10-23:30:39.304 3c12 Level-0 table #7: started
+2024/10/10-23:30:39.314 3c12 Level-0 table #7: 98901 bytes OK
+2024/10/10-23:30:39.315 3c12 Delete type=0 #4
+2024/10/10-23:52:53.394 3c12 Level-0 table #9: started
+2024/10/10-23:52:53.404 3c12 Level-0 table #9: 75468 bytes OK
+2024/10/10-23:52:53.405 3c12 Delete type=0 #6
+2024/10/10-23:54:09.234 3c14 Level-0 table #11: started
+2024/10/10-23:54:09.246 3c14 Level-0 table #11: 68501 bytes OK
+2024/10/10-23:54:09.248 3c14 Delete type=0 #8
+2024/10/11-01:04:18.724 3c12 Level-0 table #13: started
+2024/10/11-01:04:18.734 3c12 Level-0 table #13: 92467 bytes OK
+2024/10/11-01:04:18.736 3c12 Delete type=0 #10

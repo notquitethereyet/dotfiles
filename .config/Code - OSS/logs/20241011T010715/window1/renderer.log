@@ -1,0 +1,6 @@
+2024-10-11 01:07:16.264 [info] Started local extension host with pid 266451.
+2024-10-11 01:07:16.298 [info] Started initializing default profile extensions in extensions installation folder. file:///home/quiet/.vscode-oss/extensions
+2024-10-11 01:07:16.524 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/quiet/.vscode-oss/extensions
+2024-10-11 01:07:16.544 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-10-11 01:07:19.163 [info] [perf] Render performance baseline is 18ms
+2024-10-11 01:07:36.498 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

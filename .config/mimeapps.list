@@ -1,0 +1,24 @@
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+x-scheme-handler/http=zen-alpha.desktop
+x-scheme-handler/https=zen-alpha.desktop
+x-scheme-handler/chrome=zen-alpha.desktop
+text/html=zen-alpha.desktop
+application/x-extension-htm=zen-alpha.desktop
+application/x-extension-html=zen-alpha.desktop
+application/x-extension-shtml=zen-alpha.desktop
+application/xhtml+xml=zen-alpha.desktop
+application/x-extension-xhtml=zen-alpha.desktop
+application/x-extension-xht=zen-alpha.desktop
+
+[Added Associations]
+x-scheme-handler/http=zen-alpha.desktop;
+x-scheme-handler/https=zen-alpha.desktop;
+x-scheme-handler/chrome=zen-alpha.desktop;
+text/html=zen-alpha.desktop;
+application/x-extension-htm=zen-alpha.desktop;
+application/x-extension-html=zen-alpha.desktop;
+application/x-extension-shtml=zen-alpha.desktop;
+application/xhtml+xml=zen-alpha.desktop;
+application/x-extension-xhtml=zen-alpha.desktop;
+application/x-extension-xht=zen-alpha.desktop;

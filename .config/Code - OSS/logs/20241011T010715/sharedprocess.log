@@ -1,0 +1,17 @@
+2024-10-11 01:07:16.545 [info] Started initializing default profile extensions in extensions installation folder. file:///home/quiet/.vscode-oss/extensions
+2024-10-11 01:07:16.584 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/quiet/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/quiet/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-10-11 01:07:16.584 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/quiet/.vscode-oss/extensions
+2024-10-11 01:08:05.595 [info] Getting Manifest... dracula-theme.theme-dracula
+2024-10-11 01:08:06.562 [info] Installing extension: dracula-theme.theme-dracula {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/quiet/.vscode-oss/extensions/extensions.json","path":"/home/quiet/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.1","date":"2024-10-09T07:48:01.744Z"}}
+2024-10-11 01:08:09.421 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-11 01:08:09.421 [info] Extension signature verification is not done: dracula-theme.theme-dracula
+2024-10-11 01:08:09.438 [info] Extracted extension to file:///home/quiet/.vscode-oss/extensions/dracula-theme.theme-dracula-2.25.1-universal: dracula-theme.theme-dracula
+2024-10-11 01:08:09.440 [info] Renamed to /home/quiet/.vscode-oss/extensions/dracula-theme.theme-dracula-2.25.1-universal
+2024-10-11 01:08:09.447 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/quiet/.vscode-oss/extensions/extensions.json
+2024-10-11 01:08:09.522 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quiet/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quiet/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
