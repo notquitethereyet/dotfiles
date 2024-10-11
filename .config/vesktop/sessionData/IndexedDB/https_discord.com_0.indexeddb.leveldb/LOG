@@ -1,9 +1,0 @@
-2024/10/10-23:26:25.355 3c14 Reusing MANIFEST /home/quiet/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/10-23:26:25.355 3c14 Recovering log #3
-2024/10/10-23:26:25.356 3c14 Reusing old log /home/quiet/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/000003.log 
-2024/10/10-23:39:54.454 3c12 Level-0 table #5: started
-2024/10/10-23:39:54.470 3c12 Level-0 table #5: 2566037 bytes OK
-2024/10/10-23:39:54.472 3c12 Delete type=0 #3
-2024/10/10-23:47:27.263 3c16 Level-0 table #7: started
-2024/10/10-23:47:27.288 3c16 Level-0 table #7: 2409665 bytes OK
-2024/10/10-23:47:27.289 3c16 Delete type=0 #4
