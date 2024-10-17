@@ -1,0 +1,17 @@
+2024-10-16 16:02:13.649 [info] Extension host with pid 936616 started
+2024-10-16 16:02:13.676 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-16 16:02:13.751 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-16 16:02:13.818 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 16:02:13.851 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 16:02:13.853 [info] Extension host with pid 936616 exiting with code 0
+2024-10-16 16:02:14.540 [info] Extension host with pid 936712 started
+2024-10-16 16:02:14.554 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-16 16:02:14.559 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-16 16:02:14.609 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 16:02:14.644 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:02:14.644 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:02:14.653 [info] Eager extensions activated
+2024-10-16 16:02:14.665 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 16:02:14.669 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 16:02:14.961 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 16:02:14.965 [info] Extension host with pid 936712 exiting with code 0

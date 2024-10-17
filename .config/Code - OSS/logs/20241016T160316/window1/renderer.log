@@ -1,0 +1,25 @@
+2024-10-16 16:03:16.924 [info] Started local extension host with pid 939673.
+2024-10-16 16:03:17.115 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-10-16 16:03:19.570 [info] [perf] Render performance baseline is 20ms
+2024-10-16 16:03:28.736 [info] Started local extension host with pid 939956.
+2024-10-16 16:03:28.900 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-10-16 16:03:31.338 [info] [perf] Render performance baseline is 19ms
+2024-10-16 16:07:19.794 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-16 16:07:20.809 [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-10-16 16:07:20.812 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///usr/lib/code/out/bootstrap-fork.js:3:12105)
+	at process.emit (node:events:519:28)
+2024-10-16 16:07:21.814 [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-10-16 16:07:22.188 [info] Started local extension host with pid 945644.
+2024-10-16 16:07:22.349 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-10-16 16:07:24.838 [info] [perf] Render performance baseline is 18ms
+2024-10-16 16:11:46.089 [info] Started local extension host with pid 961892.
+2024-10-16 16:11:46.237 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-10-16 16:11:48.704 [info] [perf] Render performance baseline is 17ms
+2024-10-16 16:12:42.345 [warning] [backup tracker] suspended, ignoring unregister event file:///home/quiet/Workspace/Personal/notquitethereyet.github.io/package.json 

@@ -1,0 +1,135 @@
+2024-10-16 16:17:44.058 [info] Extension host with pid 974525 started
+2024-10-16 16:17:44.058 [info] Skipping acquiring lock for /home/quiet/.config/Code - OSS/User/workspaceStorage/1d1b37f6684510a1ff17c9e69606e19c.
+2024-10-16 16:17:44.135 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-16 16:17:44.140 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-16 16:17:44.314 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-16 16:17:44.367 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 16:17:44.387 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: true, activationEvent: 'workspaceContains:astro.config.*'
+2024-10-16 16:17:44.440 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'astro.content-intellisense', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:17:44.447 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:17:44.447 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:17:44.539 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-16 16:17:44.625 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-16 16:17:44.969 [info] Eager extensions activated
+2024-10-16 16:17:44.970 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 16:17:44.971 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 16:17:49.347 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 16:17:49.356 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 16:17:49.364 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 16:18:08.829 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-10-16 16:18:28.091 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.customData', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:09.588 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'css.customData', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:48.793 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2024-10-16 16:19:48.849 [warning] [vscode.typescript-language-features] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:49.172 [warning] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:49.172 [warning] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:49.273 [warning] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:50.148 [warning] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:19:50.148 [warning] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'files.watcherExclude', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:20:26.136 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2024-10-16 16:24:02.559 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2024-10-16 16:47:17.342 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:47:17.460 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:52:54.400 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:58:49.322 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:58:49.443 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:59:08.612 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:59:08.735 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:59:14.028 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:59:14.146 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 16:59:59.867 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:00:00.400 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:04:15.990 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:04:16.116 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:27.398 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:27.521 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:35.913 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:47.627 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:49.074 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:51.139 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:52.663 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:54.371 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:05:55.201 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:06:30.905 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:07:37.398 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:07:37.523 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:26:19.221 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:26:22.122 [warning] [astro-build.astro-vscode] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'html.autoClosingTags', provide the URI of a resource or 'null' for any resource.
+2024-10-16 17:34:18.361 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 17:34:18.381 [error] Canceled: Canceled
+	at new eA (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at gh.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:953034)
+	at T.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:973612)
+	at /usr/lib/code/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-16 17:34:18.383 [error] Canceled: Canceled
+	at new eA (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:321578)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:322537
+	at gh.value (/usr/lib/code/extensions/git/dist/main.js:2:1061875)
+	at T.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:973612)
+	at /usr/lib/code/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-16 17:34:18.387 [info] Extension host with pid 974525 exiting with code 0

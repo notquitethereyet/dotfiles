@@ -1,0 +1,22 @@
+---
+import { cards } from "../utils/webring.js";
+// import { Image } from "astro:assets";
+---
+
+<div id="webring" class="has-padding">
+  <p class="title">Important Links</p>
+  <section class="webring">
+  {
+    cards.map((ring) => {
+      return (
+        <a href={ring.linkUrl} title={ring.title} class="webring-link" target="_blank" rel="nofollow noopener noreferrer">
+          <div class="webring-description">
+          <h3 class="webring-title">{ring.title}</h3>
+          <p class="webring-text">{ring.description}</p>
+      </div>
+        </a>
+      );
+    })
+  }
+  </section>
+</div>

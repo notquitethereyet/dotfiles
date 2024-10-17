@@ -1,0 +1,155 @@
+---
+import Layout from "../layouts/Page.astro";
+import Webring from "../components/Webring.astro";
+import HeaderLinks from "../components/HeaderLinks.astro";
+import Projects from "../components/Projects.astro";
+import Footer from "../components/Footer.astro";
+
+// Metadata
+const title = "cutesite";
+const cutename = "quiet"
+const description = "Hi, I am quiet!"
+const url = "https://notquitethereyet.github.io";
+
+// Change in case of 🔥
+const pronouns = "any pronouns";
+
+// Calculates my age because I don't want to do it manually
+const birthday = new Date("04/05/2000");
+const favicon = new URL("/favicon.png", Astro.url);
+const age = Math.abs(new Date(Date.now() - birthday.getTime()).getUTCFullYear() - 1970);
+---
+
+<Layout title={title} description={description} favicon={favicon} url={url}>
+  <section class="container">
+    <h1 id="name">{cutename}</h1>
+    <span id="pronouns">({pronouns})</span>
+    <div id="oneko" aria-hidden="true"></div>
+    <HeaderLinks />
+
+    <div id="about" class="has-padding">
+      <p class="title">About me</p>
+      <ul>
+        <li><strong>Background</strong>: CS graduate student with 2 years of software development experience.</li>
+        <li><strong>Technical Skills</strong>: Angular, Python, C++, TypeScript, .NET, Node.js</li>
+        <li><strong>Current Work</strong>: Interning with a healthcare company utilising Make.com, Supabase with Postgres, and Google APIs for automation.</li>
+        <li><strong>Interests</strong>: Passionate about technology, Linux, and virtualization (I am big about VFIO gpu passthrough).</li>
+        <li><strong>Philosophy</strong>: Simp for open-source, libre, and FOSS.</li>
+        <li><strong>Learning Journey</strong>: Self-teaching Machine Learning and AI, with plans to explore Machine Learning deployment soon™.</li>
+      </ul>
+    <details>
+        <summary>My hyperfixations</summary>
+            <p>I spend my freetime playing video games, watching anime/reading manga or sketching anime girls! I also love building custom keyboards and playing the guitar.</p>
+            <p> I have spent countless hours trying to fix my broken Arch installation :P</p>
+
+        <p>I have been looking into buying a vintage Greco or a Tokai Made in Japan guitar! </p>
+        <p> As for custom keyboards, I have owned Bakenekos, FreeBird TKL and others. I build all my keyboards with broken-in and lubed Cherry MX Blacks on either an aluminum or polycarb plate (bet no one expected this).</p>
+            <ul>
+                <li>Kibou Fukuro: GMK Alter, alu top mount, lubed and spring swapped MX Blacks, TX Stabs. </li>
+                <li>Bachoo Crin: GMK Kouhai, polycarbonate top mount, lubed and spring swapped Zenclack Pleiades, TX Stabs</li>
+                <li>CableCarDesigns Angel: Creampacas, polypropylene pinhole mount, lubed and spring swapped creampacas,durock stabs!</li>
+            </ul>
+    </details>
+    </div>
+
+    <Projects />
+    <Webring />
+  </section>
+
+  <Footer />
+</Layout>
+
+<script>
+  const oneko = document.getElementById('oneko');
+  const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const currentTheme = localStorage.getItem('theme') || (prefersDarkMode ? 'dark' : 'light');
+  
+  document.documentElement.setAttribute('data-theme', currentTheme);
+
+  oneko.addEventListener('click', () => {
+    let theme = document.documentElement.getAttribute('data-theme');
+    theme = (theme === 'light') ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  });
+</script>
+
+<style lang="scss">
+    details summary:hover {
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+#oneko {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        right: 2rem;
+        top: 1.3rem;
+        image-rendering: pixelated;
+        background-image: url("/webring/oneko.gif");
+        animation: sleep 1s infinite;
+        cursor: pointer;
+
+        &:hover {
+            animation: 2.5s 1 forwards wakeup;
+        }
+
+        @media (prefers-reduced-motion) {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5em;
+        }
+
+        nav {
+            padding-bottom: 1.5em;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        #oneko {
+            display: none;
+        }
+    }
+
+    @keyframes sleep {
+        0%,
+        50% {
+            background-position: -64px 0;
+        }
+        50.00001%,
+        100% {
+            background-position: -64px -32px;
+        }
+    }
+    @keyframes wakeup {
+        0%,
+        20% {
+            background-position: -160px 0;
+        }
+        20.00001%,
+        40% {
+            background-position: -192px 0;
+        }
+        40.00001%,
+        60% {
+            background-position: -224px 0;
+        }
+        60.00001%,
+        80% {
+            background-position: -96px -64px;
+        }
+        80.00001%,
+        100% {
+            background-position: -96px -96px;
+        }
+    }
+</style>

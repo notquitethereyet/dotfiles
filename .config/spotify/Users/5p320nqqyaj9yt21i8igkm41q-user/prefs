@@ -1,0 +1,8 @@
+audio.play_bitrate_non_metered_migrated=true
+audio.allow_downgrade=false
+connect.dial_devices="[{\"address\":\"192.168.1.253\",\"app_state\":\"MISSING\",\"created_timestamp\":1728679689,\"device_id\":\"c0750525-7555-37e7-9159-0775eba7efd6\",\"dial_location_url\":\"http://192.168.1.253:60000/dd.xml\",\"display_name\":\"Hoyath's Fire TV\",\"last_seen\":1728679899,\"manufacturer\":\"Amazon\",\"model_name\":\"AFTKM\",\"product_cap\":\"\",\"public_ip\":\"2600:6c51:79f0:9770:0:0:0:185c\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"08c224b57754\",\"port\":9,\"retries\":800}}]"
+audio.play_bitrate_enumeration=4
+ui.hide_hpto=true
+audio.normalize_v2=false
+ui.minimize_to_tray=true
+audio.play_bitrate_non_metered_enumeration=4

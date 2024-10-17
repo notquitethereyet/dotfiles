@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete )
+plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting  zsh-autocomplete )
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -58,6 +58,7 @@ function in {
 }
 
 # Helpful aliases
+alias vpn='sudo openvpn ~/IPVanish/ipvanish-US-Los-Angeles-lax-b07.ovpn' # connect vpn
 alias c='clear' # clear terminal
 alias l='eza -lh --icons=auto' # long list
 alias ls='eza -1 --icons=auto' # short list
@@ -88,3 +89,11 @@ alias mkdir='mkdir -p'
 # Display Pokemon
 # pokemon-colorscripts --no-title -r 1,3,6
 fastfetch
+
+# pnpm
+export PNPM_HOME="/home/quiet/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

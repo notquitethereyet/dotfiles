@@ -1,0 +1,135 @@
+2024-10-16 16:03:17.484 [info] [main] Log level: Info
+2024-10-16 16:03:17.485 [info] [main] Validating found git in: "git"
+2024-10-16 16:03:17.485 [info] [main] Using git "2.47.0" from "git"
+2024-10-16 16:03:17.485 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 16:03:17.485 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 16:03:29.317 [info] [main] Log level: Info
+2024-10-16 16:03:29.317 [info] [main] Validating found git in: "git"
+2024-10-16 16:03:29.317 [info] [main] Using git "2.47.0" from "git"
+2024-10-16 16:03:29.317 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 16:03:29.317 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-16 16:03:29.323 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-16 16:03:29.330 [info] [Model][openRepository] Opened repository: /home/quiet/Workspace/Personal/notquitethereyet.github.io
+2024-10-16 16:03:29.342 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 16:03:29.343 [info] > git config --get commit.template [8ms]
+2024-10-16 16:03:29.382 [info] > git rev-parse --show-toplevel [31ms]
+2024-10-16 16:03:29.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-10-16 16:03:29.401 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:03:29.401 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-16 16:03:29.401 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 16:03:29.402 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-16 16:03:29.411 [info] > git status -z -uall [5ms]
+2024-10-16 16:03:29.412 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:03:29.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-16 16:03:29.429 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-16 16:03:29.429 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-16 16:03:29.433 [info] > git config --get commit.template [10ms]
+2024-10-16 16:03:29.462 [info] > git reflog main --grep-reflog=branch: Created from *. [30ms]
+2024-10-16 16:03:29.468 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-16 16:03:29.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-10-16 16:03:29.476 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:03:29.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-10-16 16:03:29.481 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-16 16:03:29.488 [info] > git status -z -uall [3ms]
+2024-10-16 16:03:29.489 [info] > git config --local branch.main.vscode-merge-base origin/main [9ms]
+2024-10-16 16:03:29.489 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms] (cancelled)
+2024-10-16 16:03:29.499 [info] > git config --get commit.template [1ms]
+2024-10-16 16:03:29.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-16 16:03:29.507 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-10-16 16:03:29.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-16 16:03:29.514 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:03:29.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-10-16 16:03:29.525 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-10-16 16:03:29.530 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-10-16 16:03:29.537 [info] > git status -z -uall [4ms]
+2024-10-16 16:03:29.538 [info] > git diff --name-status -z --diff-filter=ADMR 044995dc46ecc3afae21f96f2d22f45077c0d8c6...refs/remotes/origin/main [8ms]
+2024-10-16 16:03:29.539 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:03:29.851 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:03:30.572 [info] > git config --get commit.template [5ms]
+2024-10-16 16:03:30.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-16 16:03:30.576 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:03:30.577 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-16 16:03:30.585 [info] > git status -z -uall [5ms]
+2024-10-16 16:03:30.585 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:03:34.074 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:03:34.900 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:03:35.699 [info] > git show --textconv :src/components/Footer.astro [4ms]
+2024-10-16 16:03:35.700 [info] > git ls-files --stage -- /home/quiet/Workspace/Personal/notquitethereyet.github.io/src/components/Footer.astro [1ms]
+2024-10-16 16:03:35.704 [info] > git cat-file -s ffebb086ce1d670606edc676c7bebcb50802095d [1ms]
+2024-10-16 16:03:38.519 [info] > git show --textconv :src/components/Head.astro [4ms]
+2024-10-16 16:03:38.520 [info] > git ls-files --stage -- /home/quiet/Workspace/Personal/notquitethereyet.github.io/src/components/Head.astro [0ms]
+2024-10-16 16:03:38.524 [info] > git cat-file -s 68f54ab18bf2d5ffde940938b9c5fd2b8ccf65b7 [1ms]
+2024-10-16 16:03:41.036 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:03:42.892 [info] > git show --textconv :src/layouts/Page.astro [6ms]
+2024-10-16 16:03:42.892 [info] > git ls-files --stage -- /home/quiet/Workspace/Personal/notquitethereyet.github.io/src/layouts/Page.astro [1ms]
+2024-10-16 16:03:42.897 [info] > git cat-file -s 8f54c00e4b48927d2f247ba6eb1cb090b8ee201f [1ms]
+2024-10-16 16:03:49.471 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:03:51.007 [info] > git show --textconv :src/pages/404.astro [5ms]
+2024-10-16 16:03:51.007 [info] > git ls-files --stage -- /home/quiet/Workspace/Personal/notquitethereyet.github.io/src/pages/404.astro [1ms]
+2024-10-16 16:03:51.012 [info] > git cat-file -s 1161d244357e94971a9f55ae1ab782d551b6c985 [2ms]
+2024-10-16 16:07:22.744 [info] [main] Log level: Info
+2024-10-16 16:07:22.744 [info] [main] Validating found git in: "git"
+2024-10-16 16:07:22.744 [info] [main] Using git "2.47.0" from "git"
+2024-10-16 16:07:22.744 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 16:07:22.744 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-16 16:07:22.744 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-16 16:07:22.744 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 16:07:24.682 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 16:07:24.682 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-16 16:11:29.006 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/quiet/Workspace/Personal/notquitethereyet". Error:Error: ENOENT: no such file or directory, realpath '/home/quiet/Workspace/Personal/notquitethereyet'
+2024-10-16 16:11:46.671 [info] [main] Log level: Info
+2024-10-16 16:11:46.671 [info] [main] Validating found git in: "git"
+2024-10-16 16:11:46.671 [info] [main] Using git "2.47.0" from "git"
+2024-10-16 16:11:46.671 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 16:11:46.671 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-16 16:11:46.691 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-10-16 16:11:46.701 [info] [Model][openRepository] Opened repository: /home/quiet/Workspace/Personal/notquitethereyet.github.io
+2024-10-16 16:11:46.717 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-16 16:11:46.718 [info] > git config --get commit.template [8ms]
+2024-10-16 16:11:46.749 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-16 16:11:46.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-16 16:11:46.760 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:11:46.760 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-16 16:11:46.760 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 16:11:46.761 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-16 16:11:46.769 [info] > git status -z -uall [4ms]
+2024-10-16 16:11:46.770 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:11:46.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-16 16:11:46.791 [info] > git config --get commit.template [7ms]
+2024-10-16 16:11:46.812 [info] > git config --local branch.main.vscode-merge-base [23ms]
+2024-10-16 16:11:46.812 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-16 16:11:46.824 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2024-10-16 16:11:46.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-16 16:11:46.829 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-10-16 16:11:46.837 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:11:46.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-10-16 16:11:46.842 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-16 16:11:46.850 [info] > git status -z -uall [4ms]
+2024-10-16 16:11:46.850 [info] > git config --local branch.main.vscode-merge-base origin/main [8ms]
+2024-10-16 16:11:46.851 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms] (cancelled)
+2024-10-16 16:11:46.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-16 16:11:46.864 [info] > git config --get commit.template [5ms]
+2024-10-16 16:11:46.864 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-16 16:11:46.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-10-16 16:11:46.884 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-10-16 16:11:46.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-10-16 16:11:46.892 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:11:46.892 [info] > git diff --name-status -z --diff-filter=ADMR 044995dc46ecc3afae21f96f2d22f45077c0d8c6...refs/remotes/origin/main [4ms]
+2024-10-16 16:11:46.893 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-16 16:11:46.901 [info] > git status -z -uall [4ms]
+2024-10-16 16:11:46.902 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:11:47.225 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:11:47.931 [info] > git config --get commit.template [4ms]
+2024-10-16 16:11:47.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-16 16:11:47.935 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:11:47.936 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-16 16:11:47.944 [info] > git status -z -uall [4ms]
+2024-10-16 16:11:47.944 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:11:58.519 [info] > git config --get commit.template [1ms]
+2024-10-16 16:11:58.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-16 16:11:58.528 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/quiet/Workspace/Personal/notquitethereyet.github.io/.git/refs/remotes/origin/main'
+2024-10-16 16:11:58.530 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-16 16:11:58.537 [info] > git status -z -uall [4ms]
+2024-10-16 16:11:58.538 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]

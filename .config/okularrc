@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/illust_10491276_20230306_060503.jpg
+File2[$e]=$HOME/Pictures/__morino_rinze_idolmaster_and_1_more_drawn_by_ameyame__a1802fff7c804a30d2c659092afcbf1b.jpg
+Name1[$e]=illust_10491276_20230306_060503.jpg
+Name2[$e]=__morino_rinze_idolmaster_and_1_more_drawn_by_ameyame__a1802fff7c804a30d2c659092afcbf1b.jpg

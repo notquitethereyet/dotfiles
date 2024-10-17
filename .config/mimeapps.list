@@ -10,6 +10,10 @@ application/x-extension-shtml=zen-alpha.desktop
 application/xhtml+xml=zen-alpha.desktop
 application/x-extension-xhtml=zen-alpha.desktop
 application/x-extension-xht=zen-alpha.desktop
+x-scheme-handler/postman=Postman.desktop
+application/x-ms-dos-executable;application/x-wine-extension-msp;application/x-msi;application/x-msdos-program;text/win-bat;=PortProton.desktop
+x-scheme-handler/nxm=ModOrganizer-steamtinkerlaunch-dl.desktop
+x-scheme-handler/nxm-protocol=ModOrganizer-steamtinkerlaunch-dl.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen-alpha.desktop;

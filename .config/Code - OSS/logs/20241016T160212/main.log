@@ -1,0 +1,5 @@
+2024-10-16 16:02:12.682 [info] update#setState disabled
+2024-10-16 16:02:12.682 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-16 16:02:13.800 [error] [UtilityProcessWorker]: terminated unexpectedly with code 829425824, signal: unknown
+2024-10-16 16:02:13.853 [info] Extension host with pid 936616 exited with code: 0, signal: unknown.
+2024-10-16 16:02:14.968 [info] Extension host with pid 936712 exited with code: 0, signal: unknown.

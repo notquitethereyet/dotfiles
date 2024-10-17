@@ -1,2 +1,3 @@
-2024/10/11-01:07:15.392 41071 Creating DB /home/quiet/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2024/10/11-01:07:15.396 41071 Reusing MANIFEST /home/quiet/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/10/16-16:17:43.109 ede38 Reusing MANIFEST /home/quiet/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/10/16-16:17:43.114 ede38 Recovering log #3
+2024/10/16-16:17:43.114 ede38 Reusing old log /home/quiet/.config/Code - OSS/Local Storage/leveldb/000003.log 

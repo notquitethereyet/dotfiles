@@ -1,0 +1,14 @@
+2024-10-16 16:06:52.597 [info] Getting Manifest... astro-build.astro-vscode
+2024-10-16 16:06:53.668 [info] Installing extension: astro-build.astro-vscode {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/quiet/.vscode-oss/extensions/extensions.json","path":"/home/quiet/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-16 16:06:56.753 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-16 16:06:56.753 [info] Extension signature verification is not done: astro-build.astro-vscode
+2024-10-16 16:06:56.920 [info] Extracted extension to file:///home/quiet/.vscode-oss/extensions/astro-build.astro-vscode-2.15.2-linux-x64: astro-build.astro-vscode
+2024-10-16 16:06:56.930 [info] Renamed to /home/quiet/.vscode-oss/extensions/astro-build.astro-vscode-2.15.2-linux-x64
+2024-10-16 16:06:56.937 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/quiet/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/quiet/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-16 16:06:56.940 [info] Extension installed successfully: astro-build.astro-vscode vscode-userdata:/home/quiet/.vscode-oss/extensions/extensions.json
